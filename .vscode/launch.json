@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Lucas/Documents/Github/leetcode",
-      "program": "c:/Users/Lucas/Documents/Github/leetcode/build/Debug/outDebug",
+      "cwd": "c:/Users/Lucas/Documents/Github/leetcode/twoSum",
+      "program": "c:/Users/Lucas/Documents/Github/leetcode/twoSum/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
