@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.api_encurta_url</groupId>
-  <artifactId>hashMao</artifactId>
+  <artifactId>hashMap</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
