@@ -1,6 +1,5 @@
 import pandas as pd
 
-def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
-    df = pd.DataFrame(student_data, columns=['student_id', 'age'])
-    return df
-    
+def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
+    products['quantity'] = products['quantity'].fillna(0).astype(int)
+    return products
