@@ -8,22 +8,28 @@ int main(int argc, char const *argv[])
     int head = 0;
     int tail = sizeof(array) / sizeof(array[0]) - 1;
 
-    while (tail > head){
+    while (tail > head)
+    {
         int soma = array[head] + array[tail];
 
-        if (soma == alvo){
+        if (soma == alvo)
+        {
             std::cout << "Alvo encontrado: " << array[head]
                       << " + " << array[tail] << " = " << alvo << std::endl;
-            
+
             return 0;
-        } else if (soma < alvo){
+        }
+        else if (soma < alvo)
+        {
             head++;
-        } else {
+        }
+        else
+        {
             tail--;
         }
     }
 
     std::cout << "Nenhum par encontrado" << std::endl;
-    
+
     return 0;
 }
